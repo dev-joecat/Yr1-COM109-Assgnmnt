@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href = "Images/icon2.ico" rel = "SHORTCUT ICON" type = "image/x-icon">
+        <link rel="stylesheet" href = "css/style.css">
+        <meta charset="UTF-8">
+        <title>
+            Interests for Jacob McIlrath
+        </title>
+
+    </head>
+
+    <body>
+
+        <div class = "flyinggolira">
+            <marquee behaviour = "scroll" direction = "left" scrollamount = "15">
+
+                <img src = "Images/flying gorilla.png" height = 50px width = 70px>
+
+            </marquee>
+        </div>
+
+            <hr>
+
+            <h1>Here are some of the things that I like to do in my spare time.</h1>
+
+            <form>
+                <button type = "button" class = "button1">View main interests for Jacob</button>
+                <button type = "button" class = "button2">See my other interests</button>
+            </form>
+
+            <p id ="top"> <a href = "#bottom" title = "Bottom of document"> Go to the bottom of the document. </a> </p>
+        
+        <div class = "interests" style = "display:none">
+            <h2>Main Interests:</h2>
+
+            <ul>
+                <li>Boxing</li>
+                <li>Football</li>
+                <li>Gaming</li>
+                <li>Mixed Martial Arts</li>
+                <li>Strength Training</li>
+            </ul>
+        </div>
+
+            <div class = "Sports" style = "display:none">
+
+                <h3>Sports</h3>
+
+                <p>I love combat sports like Boxing and Mixed Martial Arts, I am currently training
+                at my local boxing club 
+                <br>
+                "All Saints Boxing Club", if I am not there then I am 
+                probably outside with my friends playing football or at home gaming.</p>
+
+                <a href="https://en-gb.facebook.com/people/All-Saints-ABC/100063564067823">Visit All Saints Boxing Club's Facebook page here</a>
+
+                <br>
+
+                <img src = "Images/Boxing.webp" alt = "Boxing" width = "300" height = "300" title = "Boxing">
+
+                <img src = "Images/Football.png" alt = "Football" width = "300" height = "300" title = "Football">
+
+            </div>
+            
+                <hr>
+
+            <div class = "Games" style = "display:none">
+
+                <h3>Gaming</h3>
+
+                <p>My favourite games are Rainbow Six Siege, Call of Duty, League Of Legends, 
+                Rocket League, Roblox and Brawlhalla</p>
+
+<!-- Images of games with hyperlinks -->
+                
+                <a href = "https://www.leagueoflegends.com/en-gb" target = "_blank">
+                <img src = "Images/LeagueOfLegends.jpg" alt = "League of Legends" width = "500" height = "300" title = "League Of Legends"></a>
+
+                <a href = "https://www.callofduty.com/uk/en" target = "_blank">
+                <img src = "Images/COD.jpg" alt = "Call Of Duty" width = "500" height = "300" title = "Call Of Duty Modern Warfare 2"> </a>
+
+                <br>
+
+                <a href = "https://www.brawlhalla.com" target = "_blank">
+                <img src = "Images/Brawlhalla.jpg" alt = "Brawlhalla" width = "500" height = "300" title = "Brawhalla"> </a>
+
+                <a href = "https://www.ubisoft.com/en-gb/game/rainbow-six/siege" target = "_blank">
+                <img src = "Images/RainbowSixSiege.jpg" alt = "Rainbow Six Siege" width = "500" height = "300" title = "Rainbow Six Siege"></a>
+
+                    <br>
+
+
+            <div class = "MW2gameplaytext">
+
+                <p>There is a new Call of Duty game coming out soon called "Modern Warfare 2" and below there is a trailer for the Multiplayer.</p>
+            
+            </div>
+                    <br>
+
+<!-- Video file of Call of Duty -->
+
+                    <video width = "1024" height = "576" controls>
+                        <source src ="Videos/mw2gameplay.mp4" type = "video/mp4">
+                    </video>
+                </p>
+            
+            </div>
+
+                <hr>
+        <p id = "bottom"> <a href = "#top" title = "Top of document"> Go to the top of the document.</a> </p>
+        <button><a href = "./image_map.html">Back</a></button>
+    
+    
+    
+        <marquee behaviour = "scroll" direction = "left" scrollamount = "15" >
+
+            <img src = "Images/flying gorilla.png" height = 50px width = 70px>
+
+        </marquee>
+
+
+
+
+        <!-- Java Script -->
+        <script src = "https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script>
+            $(".button1").click(function(){
+                $(".interests").css("display", "block");
+            });
+            $(".button1").click(function(){
+                $(".Sports").css("display", "block");
+            });
+
+            $(".button2").click(function(){
+                $(".Games").css("display", "block");
+            });
+
+
+        </script>
+        
+    
+
+        </body>
+</html>

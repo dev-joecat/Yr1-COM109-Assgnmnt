@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body{
+    background-image: url(/Images/bkg.jpg);
+    text-align: center;
+    font-size: large;
+
+}
+
+input {
+    font-size: 14px;
+    font-style: normal;
+    font-family: verdana, sans-serif, arial, helvetica;
+    color: black;
+    background: #d2dfe7;
+    border: #9092DC 1px solid;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+button {
+    font-size: 12px;
+    font-style: normal;
+    font-family: verdana, sans-serif, arial, helvetica;
+    border: #9092DC 1px solid;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    cursor: hand;
+}
+
+textarea {
+    font-size: 14px;
+    background: #d2dfe7;
+    color: #104c8b;
+    font-style: normal;
+    font-family: verdana, arial, sans-serif;
+    border-style: inset;
+    border-width: 1px;
+}
+
+  fieldset {
+    background-color: #f1a1c9;
+    text-align: left;
+    position: relative;
+    left: 13.75%;
+    width: 70%;
+    height: auto;
+    visibility: visible;
+    display: block;
+    overflow: hidden;
+}
+
+.subset {
+    background-color: #d2dfe7;
+    width: 50%;
+}
+
+  legend {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: verdana, arial, sans-serif;
+    color: black;
+    border: mediumseagreen 1px solid;
+    background-color:midnightblue;
+  }

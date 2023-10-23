@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*First CSS V1.0*/
+
+        body
+        {
+        font-family: 'Comic Sans MT', Arial, 'Bell MT', 'Gill Sans', 'Gill Sans MT', sans-serif;
+        line-height: 1.2;
+        text-align: center;
+        font-size: large;
+        background-image: url(/Images/bkg.jpg);
+        background-repeat:no-repeat;
+        background-color:antiquewhite;
+        color: aliceblue;
+
+}
+
+        .details
+        {
+        font-size: 20px;
+
+
+        }
+
+        ol
+        {
+        list-style-type: lower-greek
+
+
+        }
+
+        .hyperlinks
+        {
+        position:absolute;
+        top: 40%;
+        left: 10%;
+        width: 400px;
+        border: 3px solid rgb(255, 0, 0);
+        padding: 20px;
+        margin: 20px;
+        text-align: left;
+        font-size: medium;
+        background-color:bisque;
+        color: black;
+
+        }
+

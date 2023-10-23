@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href = "Images/icon2.ico" rel = "SHORTCUT ICON" type = "image/x-icon">
+        <link rel="stylesheet" href = "css/style_contact.css">
+        <meta charset="UTF-8">
+        <title>
+            Feedback
+        </title>
+
+    </head>
+    <body>
+
+        <div class = "flyinggolira">
+            <marquee behaviour = "scroll" direction = "left" scrollamount = "15">
+
+                <img src = "Images/flying gorilla.png" height = 50px width = 70px>
+
+            </marquee>
+
+        </div>
+
+            <hr>
+
+
+
+            <form name="course" id="course" action="" method="post" enctype="text/plain" onsubmit="">
+                <fieldset>
+
+                <legend style="color:mediumseagreen">Contact Form</legend>
+                
+                        <!--Student information-->
+                
+                        <label for ="fname">First Name*</label>
+                        <input type ="text" name="fname" id="fname" size="30">
+                       <br>
+                        <label for ="lname">Last Name*</label>
+                        <input type ="text" name="lname" id="lname" size="30">
+                      <br>
+                      <input type ="button" id="submit" value="Submit Details">
+                      <input type ="reset" value="Cancel">
+
+                </fieldset>
+            </form>
+                
+                <!-- This is where the jQuery should be placed  -->
+
+                <script src = "https://code.jquery.com/jquery-3.6.1.min.js"></script>
+                <script>
+                    $(document).ready(function () {
+                
+                        $("#submit").click(function (){
+                            var first_name = $("#fname").val();
+                            var last_name = $("#lname").val();
+                
+                            $(".error").remove();
+                
+                            if (first_name.length < 4) {
+                            $("#fname").after("<span class='error'>First name must be atleast 4 characters</span>");
+                            } else {
+                                if (last_name.length < 5) {
+                                    $("#lname").after("<span class='error'>Last name must be atleast 5 characters</span>");
+                                } else {
+                                    var output ="";
+                                output += "Submitting your details " + $(fname).val() + " " + $(lname).val()
+                                let result = output.toUpperCase();
+                                alert(result)
+                                }
+                            }
+                        });
+                    });
+                </script>
+            <hr>
+
+        <p> <a href = "#top" title = "Top of document"> Go to the top of the document.</a> </p>
+        <button><a href = "./image_map.html">Back</a></button>
+
+        <marquee behaviour = "scroll" direction = "left" scrollamount = "15" >
+
+            <img src = "Images/flying gorilla.png" height = 50px width = 70px>
+
+        </marquee>
+
+
+        </body>
+</html>
